@@ -66,4 +66,7 @@ footer {
     display: flex;
     flex-flow: column nowrap;
     gap: 2rem;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 0.25rem;
 }
