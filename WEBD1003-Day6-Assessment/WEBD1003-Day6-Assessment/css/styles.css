@@ -1,4 +1,8 @@
 /* ***************** utilities & containers ***************** */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F4F4F5;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,6 +45,7 @@ header {
 footer {
     background-color: #0C4A6E;
     margin-top: 6rem;
+
     color: #FAFAFA;
 }
 /* ***************** main content ***************** */
@@ -50,7 +55,7 @@ footer {
     gap: 2rem;
     margin-top: 1.5rem;
     padding: 1rem;
-    background-color: #C3C3C4;
+
 }
 
 .flex-container section {
@@ -62,11 +67,150 @@ footer {
     width: calc((100% / 4) - (1.25rem / 4));
 }
 
-.team-mem {
+
+/* Sarah */
+.team-s{
     display: flex;
     flex-flow: column nowrap;
     gap: 2rem;
-    padding: 2rem;
+    padding: 5rem 0rem 5rem 0;
     border: 1px solid;
     border-radius: 0.25rem;
+    justify-content: space-between;
+    background-color: #C3C3C4;
+    align-items: center;
+
+    float: left;
+    width: 50%;
 }
+
+.team-s div {
+    border-bottom: 3.25rem;
+    border-top: 1.5rem;
+    border-left: 6.25rem;
+    border-right: 2rem;
+}
+
+.text-s {
+    padding-bottom: 2rem;
+    padding-right: 1.75rem;
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+}
+
+.img-s {
+    padding-left: 1.75rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+/* Luis*/
+.team-l{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    padding: 5rem 0rem 5rem 0;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    justify-content: space-between;
+    background-color: #C3C3C4;
+    align-items: center;
+
+    float: left;
+    width: 50%;
+}
+
+.team-l div {
+    border-bottom: 3.25rem;
+    border-top: 1.5rem;
+    border-left: 6.25rem;
+    border-right: 2rem;
+}
+
+.text-l {
+    padding-bottom: 2rem;
+    padding-right: 1.75rem;
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+}
+
+.img-l {
+    padding-left: 1.75rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+/* Jonah */
+
+.team-j{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    padding: 5rem 0rem 5rem 0;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    justify-content: space-between;
+    background-color: #C3C3C4;
+    align-items: center;
+
+    float: left;
+    width: 50%;
+}
+
+.team-j div {
+    border-bottom: 3.25rem;
+    border-top: 1.5rem;
+    border-left: 6.25rem;
+    border-right: 2rem;
+}
+
+.text-j {
+    padding-bottom: 2rem;
+    padding-right: 1.75rem;
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+}
+
+.img-j {
+    padding-left: 1.75rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+/* Amira */
+
+.team-a{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    padding: 5rem 0rem 5rem 0;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    justify-content: space-between;
+    background-color: #C3C3C4;
+    align-items: center;
+
+    float: left;
+    width: 50%;
+}
+
+.team-a div {
+    border-bottom: 3.25rem;
+    border-top: 1.5rem;
+    border-left: 6.25rem;
+    border-right: 2rem;
+}
+
+.text-a {
+    padding-bottom: 2rem;
+    padding-right: 1.75rem;
+    padding-top: 2rem;
+    padding-left: 3.5rem;
+}
+
+.img-a {
+    padding-left: 1.75rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+
